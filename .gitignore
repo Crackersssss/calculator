@@ -1,0 +1,91 @@
+HELP.md
+## @author cracker
+#maven ignore
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# maven plugin ignore
+release.properties
+cobertura.ser
+*.gpg
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+.factorypath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+logs/
+*.log
+*.doc
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# antlr ignore
+gen/
+*.tokens
+
+# agent build ignore
+/agent/
+
+### STS ###
+.apt_generated
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.nar
+*.ear
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#idea
+.vscode
+.mvn
+out
+*.tempdata
