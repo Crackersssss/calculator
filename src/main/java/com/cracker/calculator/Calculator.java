@@ -1,15 +1,12 @@
 package com.cracker.calculator;
 
-import com.cracker.calculator.service.CalculatorService;
-import lombok.AccessLevel;
-import lombok.NoArgsConstructor;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@SpringBootApplication
 public class Calculator {
 
     public static void main(final String[] args) {
-        Double compute = new CalculatorService().compute("-1-(1-(2+3)-(-4)*(-5)/(+6))");
-        System.out.println(compute.doubleValue());
+        SpringApplication.run(Calculator.class);
     }
-
 }
